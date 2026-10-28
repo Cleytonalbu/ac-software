@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clinora — Software que cuida. Clínicas que prosperam.</title>
+  <meta name="description" content="Agenda, pacientes, evoluções e financeiro para profissionais independentes e pequenas clínicas. Um produto AC Software.">
+  <meta property="og:title" content="Clinora — Software que cuida. Clínicas que prosperam.">
+  <meta property="og:description" content="Agenda, pacientes, evoluções e financeiro para profissionais independentes e pequenas clínicas. Um produto AC Software.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#06080D">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+  <style>
+body{margin:0;background:#F7F8FA}
+a{color:#167D78}a:hover{color:#146662}
+@keyframes fxUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes fxFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.fx-up>*{opacity:0;animation:fxUp .8s cubic-bezier(.2,.7,.2,1) forwards}
+.fx-up>*:nth-child(1){animation-delay:.05s}.fx-up>*:nth-child(2){animation-delay:.16s}.fx-up>*:nth-child(3){animation-delay:.27s}.fx-up>*:nth-child(4){animation-delay:.38s}.fx-up>*:nth-child(5){animation-delay:.49s}
+.fx-float{animation:fxUp 1s .25s cubic-bezier(.2,.7,.2,1) both}
+.fx-float img{animation:fxFloat 7s ease-in-out infinite}
+.fx-btn{transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
+.fx-btn:hover{transform:translateY(-2px);filter:brightness(1.08);box-shadow:0 10px 26px -10px rgba(22,125,120,.6)}
+.fx-shot{transition:transform .4s ease,box-shadow .4s ease}
+.fx-shot:hover{transform:translateY(-6px) scale(1.01);box-shadow:0 30px 60px -28px rgba(18,63,62,.45)}
+@supports (animation-timeline: view()){
+.fx-reveal{animation:fxUp linear both;animation-timeline:view();animation-range:entry 0% entry 75%}
+}
+img,video{max-width:100%}
+@media (max-width:760px){.nav-text{display:none!important}}
+@media (prefers-reduced-motion: reduce){
+*,*::before,*::after{animation:none!important;transition:none!important}
+.fx-up>*{opacity:1}
+}
+  </style>
+</head>
+<body>
+<div style="background: #F7F8FA; color: #1D2129; font-family: Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.6; min-height: 100vh; overflow-x: hidden">
+
+  <!-- BARRA AC SOFTWARE -->
+  <header style="background: #06080D; color: #E8ECF3">
+    <nav aria-label="AC Software" style="max-width: 1200px; margin: 0 auto; padding: 12px clamp(16px, 4vw, 24px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; font-size: 14px">
+      <a href="index.html" style="display: flex; align-items: center; min-height: 44px; text-decoration: none">
+        <img src="assets/img/logo-ac-software-horizontal.png" alt="AC Software" style="display: block; height: 28px; width: auto">
+      </a>
+      <a href="index.html" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #B6BECB; text-decoration: none">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg>
+        Todos os produtos
+      </a>
+    </nav>
+  </header>
+
+  <!-- NAV CLINORA -->
+  <div style="background: #FFFFFF; border-bottom: 1px solid #E8EAED">
+    <nav aria-label="Clinora" style="max-width: 1200px; margin: 0 auto; padding: 14px clamp(16px, 4vw, 24px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+      <img src="assets/img/clinora/logo-clinora.png" alt="Clinora" style="height: 40px; width: auto">
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 15px">
+        <a class="nav-text" href="#video" style="color: #475467; text-decoration: none">Apresentação</a>
+        <a class="nav-text" href="#recursos" style="color: #475467; text-decoration: none">Recursos</a>
+        <a class="nav-text" href="#para-quem" style="color: #475467; text-decoration: none">Para quem é</a>
+        <a class="fx-btn" href="#contato" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 10px; background: #167D78; color: #FFFFFF; font-weight: 600; text-decoration: none">Quero conhecer</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <section style="background: #F0FAF9; border-bottom: 1px solid #D9F2F0">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(43px, 8vw, 72px) clamp(16px, 4vw, 24px) clamp(48px, 8vw, 80px); display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+      <div class="fx-up" style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #146662">Gestão para clínicas e consultórios</p>
+        <h1 style="margin: 0; font-weight: 700; font-size: clamp(38px, 5vw, 60px); line-height: 1.05; letter-spacing: -0.02em; color: #123F3E">Software que cuida. <span style="color: #167D78">Clínicas que prosperam.</span></h1>
+        <p style="margin: 0; max-width: 34rem; font-size: clamp(17px, 2vw, 19px); color: #475467">Agenda, pacientes, evoluções e financeiro num só lugar. Feita para profissionais independentes e pequenas clínicas, direto no navegador, no computador ou no celular.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px">
+          <a class="fx-btn" href="#video" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 12px; background: #167D78; color: #FFFFFF; font-weight: 600; text-decoration: none">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"></path></svg>
+            Ver apresentação
+          </a>
+          <a class="fx-btn" href="#contato" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 24px; border-radius: 12px; background: #FFFFFF; border: 1px solid #B5E4E1; color: #146662; font-weight: 600; text-decoration: none">Pedir uma demonstração</a>
+        </div>
+      </div>
+      <div class="fx-float" style="flex: 1 1 520px; min-width: 0">
+        <img src="assets/img/clinora/hero.webp" alt="Clinora aberta no navegador do notebook e do celular, tela de início com a agenda do dia" style="display: block; width: 100%; height: auto; border-radius: 24px; box-shadow: 0 30px 70px -30px rgba(18,63,62,.55)">
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video" style="max-width: 1100px; margin: 0 auto; padding: clamp(52px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; align-items: center; gap: 32px; text-align: center">
+    <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 12px; max-width: 40rem">
+      <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #146662">Apresentação</p>
+      <h2 style="margin: 0; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.1; color: #123F3E">Conheça a Clinora em 30 segundos</h2>
+    </div>
+    <div class="fx-reveal" style="width: 100%; border-radius: 20px; overflow: hidden; background: #123F3E; box-shadow: 0 30px 70px -32px rgba(18,63,62,.5); border: 1px solid #D9F2F0">
+      <video controls playsinline preload="metadata" poster="assets/video/clinora-poster.webp" aria-label="Vídeo de apresentação da Clinora" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #F5FBFB">
+        <source src="assets/video/clinora-apresentacao.webm" type="video/webm">
+        <source src="assets/video/clinora-apresentacao.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section id="recursos" style="background: #FFFFFF; border-top: 1px solid #E8EAED; border-bottom: 1px solid #E8EAED">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(52px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; gap: 96px">
+
+      <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 12px; max-width: 42rem">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #146662">Recursos</p>
+        <h2 style="margin: 0; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.1; color: #123F3E">Tudo o que o consultório precisa, sem complicar.</h2>
+      </div>
+
+      <!-- Início -->
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+        <div class="fx-reveal" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+          <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #167D78">Início</p>
+          <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15; color: #123F3E">Seu dia inteiro em uma única tela</h3>
+          <p style="margin: 0; color: #475467; font-size: 17px">Agenda, resumo de atendimentos e financeiro do dia assim que você entra. E os avisos que importam aparecem sozinhos.</p>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #344054">
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Pacotes de sessões perto do fim</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Cobranças vencidas</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Aniversariantes da semana</li>
+          </ul>
+        </div>
+        <div class="fx-reveal" style="flex: 1.4 1 480px; min-width: 0">
+          <img class="fx-shot" src="assets/img/clinora/inicio.webp" alt="Tela de início da Clinora com agenda de hoje, resumo do dia e alertas" style="display: block; width: 100%; height: auto; border-radius: 20px">
+        </div>
+      </div>
+
+      <!-- Agenda -->
+      <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: clamp(24px, 4vw, 48px)">
+        <div class="fx-reveal" style="flex: 1.4 1 480px; min-width: 0">
+          <img class="fx-shot" src="assets/img/clinora/agenda.webp" alt="Agenda da Clinora com horários, pacientes, serviços e status" style="display: block; width: 100%; height: auto; border-radius: 20px">
+        </div>
+        <div class="fx-reveal" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+          <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #167D78">Agenda</p>
+          <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15; color: #123F3E">Do agendamento ao atendimento em um clique</h3>
+          <p style="margin: 0; color: #475467; font-size: 17px">Veja o dia, a semana ou o mês. Cada horário mostra o status do paciente e a próxima ação: confirmar, marcar que chegou ou iniciar o atendimento.</p>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #344054">
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Status: agendado, confirmado, aguardando, realizado</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Bloqueio de horários</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Controle de sessões do pacote, como 7/10</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Pacientes e evoluções -->
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+        <div class="fx-reveal" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+          <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #167D78">Prontuário e evoluções</p>
+          <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15; color: #123F3E">A história do paciente organizada, sessão por sessão</h3>
+          <p style="margin: 0; color: #475467; font-size: 17px">Registre subjetivo e conduta em cada evolução e acompanhe parâmetros como dor (EVA) e amplitude em gráfico. Prontuário, exames, agenda, financeiro e documentos ficam no mesmo perfil.</p>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #344054">
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Gráfico de evolução dos parâmetros</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Pacote de sessões e próximo atendimento à vista</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Documentos gerados a partir do atendimento</li>
+          </ul>
+        </div>
+        <div class="fx-reveal" style="flex: 1.4 1 480px; min-width: 0">
+          <img class="fx-shot" src="assets/img/clinora/evolucoes.webp" alt="Perfil do paciente na Clinora com evoluções, pacote de sessões e gráfico de dor" style="display: block; width: 100%; height: auto; border-radius: 20px">
+        </div>
+      </div>
+
+      <!-- Pacientes lista -->
+      <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: clamp(24px, 4vw, 48px)">
+        <div class="fx-reveal" style="flex: 1.4 1 480px; min-width: 0">
+          <img class="fx-shot" src="assets/img/clinora/pacientes.webp" alt="Lista de pacientes da Clinora com busca e filtros" style="display: block; width: 100%; height: auto; border-radius: 20px">
+        </div>
+        <div class="fx-reveal" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+          <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #167D78">Pacientes</p>
+          <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15; color: #123F3E">Encontre qualquer paciente em segundos</h3>
+          <p style="margin: 0; color: #475467; font-size: 17px">Busque por nome, CPF ou telefone e filtre quem está em acompanhamento, quem tem agendamento, pacote ativo ou pagamento pendente.</p>
+        </div>
+      </div>
+
+      <!-- Financeiro -->
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+        <div class="fx-reveal" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+          <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #167D78">Financeiro</p>
+          <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15; color: #123F3E">Saiba quanto entrou, quanto falta e quanto sobra</h3>
+          <p style="margin: 0; color: #475467; font-size: 17px">Recebido, a receber, despesas, a pagar, faturamento previsto e resultado do mês. Com receita por profissional e por forma de pagamento.</p>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #344054">
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Pix, cartão, dinheiro e convênio</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Pacotes parcelados</li>
+            <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #167D78; font-weight: 700">✓</span>Lista de pacientes inativos para reativar</li>
+          </ul>
+        </div>
+        <div class="fx-reveal" style="flex: 1.4 1 480px; min-width: 0">
+          <img class="fx-shot" src="assets/img/clinora/financeiro.webp" alt="Financeiro da Clinora com indicadores do mês, receita por profissional e formas de pagamento" style="display: block; width: 100%; height: auto; border-radius: 20px">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MOBILE -->
+  <section style="background: #146662; color: #FFFFFF">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(52px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+      <div class="fx-reveal" style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #B5E4E1">Sem instalar nada</p>
+        <h2 style="margin: 0; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.1">Abre no navegador, do computador ou do celular.</h2>
+        <p style="margin: 0; font-size: 18px; color: #D9F2F0">A Clinora é um sistema web: não tem aplicativo para baixar. É só entrar pelo navegador, e as telas se ajustam ao celular para conferir a agenda e ver quem chegou entre um atendimento e outro.</p>
+      </div>
+      <div class="fx-reveal" style="flex: 1 1 440px; min-width: 0">
+        <img src="assets/img/clinora/celular.webp" alt="Clinora aberta no navegador de dois celulares, com a tela de início e a agenda" style="display: block; width: 100%; height: auto; border-radius: 24px">
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM -->
+  <section id="para-quem" style="max-width: 1200px; margin: 0 auto; padding: clamp(52px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; gap: 32px">
+    <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 12px; max-width: 42rem">
+      <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #146662">Para quem é</p>
+      <h2 style="margin: 0; font-weight: 700; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.1; color: #123F3E">Profissionais independentes e pequenas clínicas de várias especialidades</h2>
+    </div>
+    <div class="fx-reveal" style="display: flex; flex-wrap: wrap; gap: 12px">
+      <span style="padding: 10px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #B5E4E1; color: #146662; font-weight: 500">Fisioterapia</span>
+      <span style="padding: 10px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #B5E4E1; color: #146662; font-weight: 500">Nutrição</span>
+      <span style="padding: 10px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #B5E4E1; color: #146662; font-weight: 500">Fonoaudiologia</span>
+      <span style="padding: 10px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #B5E4E1; color: #146662; font-weight: 500">Odontologia</span>
+      <span style="padding: 10px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #B5E4E1; color: #146662; font-weight: 500">Pilates clínico</span>
+      <span style="padding: 10px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #B5E4E1; color: #146662; font-weight: 500">E outras especialidades</span>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 24px) clamp(56px, 9vw, 88px)">
+    <div class="fx-reveal" style="padding: clamp(32px, 5vw, 64px); border-radius: 28px; background: #123F3E; color: #FFFFFF; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 32px">
+      <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-weight: 700; font-size: clamp(28px, 3vw, 38px); line-height: 1.15">Quer ver a Clinora funcionando no seu consultório?</h2>
+        <p style="margin: 0; font-size: 18px; color: #B5E4E1">Fale com a gente e marque uma demonstração.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <a class="fx-btn" href="https://wa.me/5583987244456?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20AC%20Software%20e%20gostaria%20de%20agendar%20uma%20conversa%20sobre%20a%20Clinora." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 12px; background: #2DD4BF; color: #0B2E2C; font-weight: 700; text-decoration: none">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+          Cleyton · (83) 98724-4456
+        </a>
+        <a class="fx-btn" href="https://wa.me/5583986690422?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20AC%20Software%20e%20gostaria%20de%20agendar%20uma%20conversa%20sobre%20a%20Clinora." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 12px; background: #2DD4BF; color: #0B2E2C; font-weight: 700; text-decoration: none">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+          Luiz · (83) 98669-0422
+        </a>
+        <a href="mailto:ac.softwaree@gmail.com" style="font-size: 14px; color: #B5E4E1; text-align: center; min-height: 44px; display: inline-flex; align-items: center; justify-content: center">ou ac.softwaree@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ AC -->
+  <footer style="background: #06080D; color: #8F9AAB">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 28px clamp(16px, 4vw, 24px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; font-size: 14px">
+      <span>Clinora é um produto <a href="index.html" style="color: #8FC0FF">AC Software</a></span>
+      <span>© 2026 AC Software · CNPJ 69.631.203/0001-82</span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

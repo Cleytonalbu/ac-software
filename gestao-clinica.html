@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistema de Gestão Clínica — AC Software</title>
+  <meta name="description" content="Sistema completo para clínicas multidisciplinares, entregue com o nome, a logo e as cores da sua clínica.">
+  <meta property="og:title" content="Sistema de Gestão Clínica — AC Software">
+  <meta property="og:description" content="Sistema completo para clínicas multidisciplinares, entregue com o nome, a logo e as cores da sua clínica.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#06080D">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+  <style>
+body{margin:0;background:#F7F6FD}
+a{color:#6D28D9}a:hover{color:#5B21B6}
+img,video{max-width:100%}
+@keyframes fxUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes fxFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes fxGlow{0%,100%{opacity:.5;transform:scale(.95)}50%{opacity:.85;transform:scale(1.05)}}
+.fx-up>*{opacity:0;animation:fxUp .8s cubic-bezier(.2,.7,.2,1) forwards}
+.fx-up>*:nth-child(1){animation-delay:.05s}.fx-up>*:nth-child(2){animation-delay:.16s}.fx-up>*:nth-child(3){animation-delay:.27s}.fx-up>*:nth-child(4){animation-delay:.38s}
+.fx-float{position:relative;animation:fxUp 1s .25s cubic-bezier(.2,.7,.2,1) both}
+.fx-float::before{content:"";position:absolute;inset:12% 8%;border-radius:50%;background:radial-gradient(circle,rgba(124,58,237,.55),transparent 70%);filter:blur(50px);animation:fxGlow 6s ease-in-out infinite}
+.fx-float img{position:relative;animation:fxFloat 7s ease-in-out infinite}
+.fx-btn{transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
+.fx-btn:hover{transform:translateY(-2px);filter:brightness(1.08);box-shadow:0 10px 26px -10px rgba(124,58,237,.7)}
+.fx-shot{transition:transform .4s ease,box-shadow .4s ease}
+.fx-shot:hover{transform:translateY(-6px);box-shadow:0 30px 60px -28px rgba(30,27,75,.5)}
+.fx-card{transition:transform .3s ease,box-shadow .3s ease}
+.fx-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(76,29,149,.45)}
+@supports (animation-timeline: view()){
+.fx-reveal{animation:fxUp linear both;animation-timeline:view();animation-range:entry 0% entry 75%}
+}
+@media (max-width:760px){.nav-text{display:none!important}}
+@media (prefers-reduced-motion: reduce){
+*,*::before,*::after{animation:none!important;transition:none!important}
+.fx-up>*{opacity:1}
+}
+  </style>
+</head>
+<body>
+<div style="background: #F7F6FD; color: #1E1B4B; font-family: Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.6; min-height: 100vh; overflow-x: hidden">
+
+  <!-- BARRA AC SOFTWARE -->
+  <header style="background: #06080D; color: #E8ECF3">
+    <nav aria-label="AC Software" style="max-width: 1200px; margin: 0 auto; padding: 8px clamp(16px, 4vw, 24px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 14px">
+      <a href="index.html" style="display: flex; align-items: center; min-height: 44px; text-decoration: none">
+        <img src="assets/img/logo-ac-software-horizontal.png" alt="AC Software" style="display: block; height: 28px; width: auto">
+      </a>
+      <a href="index.html" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #B6BECB; text-decoration: none">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg>
+        Todos os produtos
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section style="background: #16133F; color: #FFFFFF">
+    <nav aria-label="Gestão Clínica" style="max-width: 1200px; margin: 0 auto; padding: 14px clamp(16px, 4vw, 24px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid #2A2560">
+      <div style="display: flex; flex-direction: column; line-height: 1.1">
+        <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #B9A6FF">Sistema de</span>
+        <span style="font-size: 22px; font-weight: 700; color: #FFFFFF">Gestão Clínica</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 15px">
+        <a class="nav-text" href="#video" style="color: #CFC8F5; text-decoration: none">Apresentação</a>
+        <a class="nav-text" href="#sua-marca" style="color: #CFC8F5; text-decoration: none">Sua marca</a>
+        <a class="nav-text" href="#recursos" style="color: #CFC8F5; text-decoration: none">Recursos</a>
+        <a class="fx-btn" href="#contato" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 10px; background: #7C3AED; color: #FFFFFF; font-weight: 600; text-decoration: none">Pedir demonstração</a>
+      </div>
+    </nav>
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(48px, 8vw, 88px) clamp(16px, 4vw, 24px) clamp(56px, 9vw, 96px); display: flex; flex-wrap: wrap; align-items: center; gap: 48px">
+      <div class="fx-up" style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #B9A6FF">Para clínicas multidisciplinares</p>
+        <h1 style="margin: 0; font-weight: 700; font-size: clamp(36px, 5vw, 58px); line-height: 1.06; letter-spacing: -0.02em">Sua clínica, <span style="color: #B9A6FF">sua marca.</span> A gestão é com a gente.</h1>
+        <p style="margin: 0; max-width: 34rem; font-size: clamp(17px, 2vw, 19px); color: #CFC8F5">Agenda, prontuário, evoluções e financeiro num só sistema, entregue com o nome, a logo e as cores da sua clínica.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px">
+          <a class="fx-btn" href="#video" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 12px; background: #7C3AED; color: #FFFFFF; font-weight: 600; text-decoration: none">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"></path></svg>
+            Ver apresentação
+          </a>
+          <a class="fx-btn" href="#contato" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 24px; border-radius: 12px; border: 1px solid #4B4390; color: #FFFFFF; font-weight: 600; text-decoration: none">Falar com a gente</a>
+        </div>
+      </div>
+      <div class="fx-float" style="flex: 1.3 1 480px; min-width: 0">
+        <img src="assets/img/gestao-clinica/hero.webp" alt="Sistema de Gestão Clínica aberto num notebook, mostrando o dashboard da clínica" style="display: block; width: 100%; height: auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video" style="max-width: 1100px; margin: 0 auto; padding: clamp(56px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; align-items: center; gap: 28px; text-align: center">
+    <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 12px; max-width: 40rem">
+      <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #6D28D9">Apresentação</p>
+      <h2 style="margin: 0; font-weight: 700; font-size: clamp(28px, 3.4vw, 42px); line-height: 1.12">Veja o sistema em 30 segundos</h2>
+    </div>
+    <div class="fx-reveal" style="width: 100%; border-radius: 20px; overflow: hidden; background: #16133F; box-shadow: 0 30px 70px -32px rgba(30,27,75,.55)">
+      <video autoplay muted loop playsinline controls preload="metadata" poster="assets/video/gestao-clinica-poster.webp" aria-label="Vídeo de apresentação do Sistema de Gestão Clínica" style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9">
+        <source src="assets/video/gestao-clinica.webm" type="video/webm">
+        <source src="assets/video/gestao-clinica.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- SUA MARCA -->
+  <section id="sua-marca" style="background: #FFFFFF; border-top: 1px solid #ECE9FB; border-bottom: 1px solid #ECE9FB">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(56px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; gap: 40px">
+      <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 12px; max-width: 44rem">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #6D28D9">Sua marca</p>
+        <h2 style="margin: 0; font-weight: 700; font-size: clamp(28px, 3.4vw, 42px); line-height: 1.12">Para a equipe e para os pacientes, é o sistema da sua clínica.</h2>
+        <p style="margin: 0; font-size: 18px; color: #4B4870">Onde nas telas aparece "Sua Clínica", entra o nome da clínica que contrata. A tecnologia é nossa; a identidade é sua.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 20px">
+        <div class="fx-card fx-reveal" style="display: flex; flex-direction: column; gap: 12px; padding: clamp(22px, 3vw, 28px); border-radius: 18px; background: #F7F6FD; border: 1px solid #E4DFFB">
+          <div style="width: 44px; height: 44px; border-radius: 12px; background: #EDE7FF; display: flex; align-items: center; justify-content: center; color: #6D28D9">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"></path></svg>
+          </div>
+          <h3 style="margin: 0; font-size: 20px; font-weight: 700">Nome e logo da clínica</h3>
+          <p style="margin: 0; color: #4B4870">No menu, no login e nos documentos gerados em PDF.</p>
+        </div>
+        <div class="fx-card fx-reveal" style="display: flex; flex-direction: column; gap: 12px; padding: clamp(22px, 3vw, 28px); border-radius: 18px; background: #F7F6FD; border: 1px solid #E4DFFB">
+          <div style="width: 44px; height: 44px; border-radius: 12px; background: #EDE7FF; display: flex; align-items: center; justify-content: center; color: #6D28D9">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"></circle><circle cx="17.5" cy="10.5" r=".5"></circle><circle cx="8.5" cy="7.5" r=".5"></circle><circle cx="6.5" cy="12.5" r=".5"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.84-.44-1.13-.29-.29-.44-.65-.44-1.13a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.56-2.5 5.56-5.55C21.96 6.01 17.46 2 12 2Z"></path></svg>
+          </div>
+          <h3 style="margin: 0; font-size: 20px; font-weight: 700">Cores da sua identidade</h3>
+          <p style="margin: 0; color: #4B4870">A arte do sistema combina com a marca que seus pacientes já conhecem.</p>
+        </div>
+        <div class="fx-card fx-reveal" style="display: flex; flex-direction: column; gap: 12px; padding: clamp(22px, 3vw, 28px); border-radius: 18px; background: #F7F6FD; border: 1px solid #E4DFFB">
+          <div style="width: 44px; height: 44px; border-radius: 12px; background: #EDE7FF; display: flex; align-items: center; justify-content: center; color: #6D28D9">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"></path><path d="M5 21V7l8-4v18"></path><path d="M19 21V11l-6-4"></path><path d="M9 9v.01"></path><path d="M9 12v.01"></path><path d="M9 15v.01"></path></svg>
+          </div>
+          <h3 style="margin: 0; font-size: 20px; font-weight: 700">Uma ou várias unidades</h3>
+          <p style="margin: 0; color: #4B4870">Troque de unidade no topo da tela e veja agenda, salas e números de cada uma.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section id="recursos" style="max-width: 1200px; margin: 0 auto; padding: clamp(56px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; gap: clamp(56px, 9vw, 96px)">
+    <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 12px; max-width: 42rem">
+      <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #6D28D9">Recursos</p>
+      <h2 style="margin: 0; font-weight: 700; font-size: clamp(28px, 3.4vw, 42px); line-height: 1.12">Da recepção à gestão, tudo conversa entre si.</h2>
+    </div>
+
+    <!-- Dashboard -->
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+      <div class="fx-reveal" style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #6D28D9">Dashboard</p>
+        <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15">A clínica inteira num painel</h3>
+        <p style="margin: 0; color: #4B4870; font-size: 17px">Atendimentos do dia, novos pacientes, sessões realizadas, faturamento e cancelamentos assim que você entra.</p>
+        <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #2E2A5C">
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Evolução dos atendimentos ao longo do ano</li>
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Desempenho por especialidade e pacientes por faixa etária</li>
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Pendências, como evoluções a finalizar</li>
+        </ul>
+      </div>
+      <div class="fx-reveal" style="flex: 1.4 1 460px; min-width: 0">
+        <img class="fx-shot" src="assets/img/gestao-clinica/dashboard.webp" alt="Dashboard do sistema com indicadores do mês, gráfico de atendimentos e próximos atendimentos" style="display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid #E4DFFB">
+      </div>
+    </div>
+
+    <!-- Agenda -->
+    <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: clamp(24px, 4vw, 48px)">
+      <div class="fx-reveal" style="flex: 1.4 1 460px; min-width: 0">
+        <img class="fx-shot" src="assets/img/gestao-clinica/agenda.webp" alt="Agenda semanal com atendimentos por dia, profissional e status" style="display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid #E4DFFB">
+      </div>
+      <div class="fx-reveal" style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #6D28D9">Agenda e salas</p>
+        <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15">Todos os profissionais, todas as salas, sem conflito</h3>
+        <p style="margin: 0; color: #4B4870; font-size: 17px">Veja por dia, semana, mês ou por profissional. Filtre por especialidade e status e acompanhe cada atendimento.</p>
+        <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #2E2A5C">
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Agendado, confirmado, realizado, falta e cancelado</li>
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Controle de salas e bloqueio de horários</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Prontuário -->
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+      <div class="fx-reveal" style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #6D28D9">Prontuário</p>
+        <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15">Tudo sobre o paciente em um único lugar</h3>
+        <p style="margin: 0; color: #4B4870; font-size: 17px">A central do prontuário reúne evoluções, objetivos, plano terapêutico, relatórios, encaminhamentos, observações e anexos.</p>
+        <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #2E2A5C">
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Evolução por sessão, com objetivo, conduta e orientação à família</li>
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Evoluções em PDF com um clique</li>
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Responsável do paciente sempre à vista</li>
+        </ul>
+      </div>
+      <div class="fx-reveal" style="flex: 1.4 1 460px; min-width: 0">
+        <img class="fx-shot" src="assets/img/gestao-clinica/prontuario.webp" alt="Central do prontuário com abas e lista de evoluções do paciente" style="display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid #E4DFFB">
+      </div>
+    </div>
+
+    <!-- Pacientes -->
+    <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: clamp(24px, 4vw, 48px)">
+      <div class="fx-reveal" style="flex: 1.4 1 460px; min-width: 0">
+        <img class="fx-shot" src="assets/img/gestao-clinica/pacientes.webp" alt="Lista de pacientes com convênio, última e próxima consulta e status" style="display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid #E4DFFB">
+      </div>
+      <div class="fx-reveal" style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #6D28D9">Pacientes</p>
+        <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15">Ativos, inativos e próximas consultas de relance</h3>
+        <p style="margin: 0; color: #4B4870; font-size: 17px">Busque por nome, CPF ou telefone, filtre por status e convênio e veja a última e a próxima consulta de cada paciente.</p>
+      </div>
+    </div>
+
+    <!-- Financeiro -->
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(24px, 4vw, 48px)">
+      <div class="fx-reveal" style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #6D28D9">Financeiro</p>
+        <h3 style="margin: 0; font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.15">Do faturado ao resultado líquido, com repasses</h3>
+        <p style="margin: 0; color: #4B4870; font-size: 17px">Faturado, recebido, despesas, contas a pagar e repasses aos profissionais, chegando ao resultado real da clínica.</p>
+        <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: #2E2A5C">
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Receitas por origem: particular, pacotes e convênios</li>
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Contas a receber, a pagar e vencimentos</li>
+          <li style="display: flex; gap: 10px"><span aria-hidden="true" style="color: #7C3AED; font-weight: 700">✓</span>Despesas por categoria</li>
+        </ul>
+      </div>
+      <div class="fx-reveal" style="flex: 1.4 1 460px; min-width: 0">
+        <img class="fx-shot" src="assets/img/gestao-clinica/financeiro.webp" alt="Financeiro com faturado, recebido, despesas, repasses e resultado líquido" style="display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid #E4DFFB">
+      </div>
+    </div>
+  </section>
+
+  <!-- PERFIS -->
+  <section style="background: #16133F; color: #FFFFFF">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(56px, 9vw, 88px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; gap: 36px">
+      <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 12px; max-width: 42rem">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #B9A6FF">Acesso por perfil</p>
+        <h2 style="margin: 0; font-weight: 700; font-size: clamp(28px, 3.4vw, 42px); line-height: 1.12">Cada pessoa vê o que precisa para o seu trabalho.</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 20px">
+        <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 10px; padding: clamp(22px, 3vw, 28px); border-radius: 18px; background: #1F1B52; border: 1px solid #2E2970">
+          <h3 style="margin: 0; font-size: 20px; font-weight: 700">Gestão</h3>
+          <p style="margin: 0; color: #CFC8F5">Visão completa: indicadores, financeiro, profissionais, salas e relatórios.</p>
+        </div>
+        <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 10px; padding: clamp(22px, 3vw, 28px); border-radius: 18px; background: #1F1B52; border: 1px solid #2E2970">
+          <h3 style="margin: 0; font-size: 20px; font-weight: 700">Profissional</h3>
+          <p style="margin: 0; color: #CFC8F5">Visão clínica: seus pacientes, prontuário, evoluções, encaminhamentos e documentos.</p>
+        </div>
+        <div class="fx-reveal" style="display: flex; flex-direction: column; gap: 10px; padding: clamp(22px, 3vw, 28px); border-radius: 18px; background: #1F1B52; border: 1px solid #2E2970">
+          <h3 style="margin: 0; font-size: 20px; font-weight: 700">Recepção</h3>
+          <p style="margin: 0; color: #CFC8F5">Agenda, cadastro de pacientes e a rotina do dia a dia.</p>
+        </div>
+      </div>
+      <div class="fx-reveal" style="display: flex; flex-wrap: wrap; gap: 10px">
+        <span style="padding: 8px 16px; border-radius: 999px; border: 1px solid #4B4390; color: #E4DFFB; font-size: 15px">Fonoaudiologia</span>
+        <span style="padding: 8px 16px; border-radius: 999px; border: 1px solid #4B4390; color: #E4DFFB; font-size: 15px">Terapia ocupacional</span>
+        <span style="padding: 8px 16px; border-radius: 999px; border: 1px solid #4B4390; color: #E4DFFB; font-size: 15px">Psicologia</span>
+        <span style="padding: 8px 16px; border-radius: 999px; border: 1px solid #4B4390; color: #E4DFFB; font-size: 15px">ABA</span>
+        <span style="padding: 8px 16px; border-radius: 999px; border: 1px solid #4B4390; color: #E4DFFB; font-size: 15px">Psicopedagogia</span>
+        <span style="padding: 8px 16px; border-radius: 999px; border: 1px solid #4B4390; color: #E4DFFB; font-size: 15px">E outras especialidades</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" style="max-width: 1200px; margin: 0 auto; padding: clamp(56px, 9vw, 88px) clamp(16px, 4vw, 24px)">
+    <div class="fx-reveal" style="padding: clamp(28px, 5vw, 64px); border-radius: 28px; background: linear-gradient(135deg, #5B21B6, #312E81); color: #FFFFFF; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px">
+      <div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-weight: 700; font-size: clamp(26px, 3vw, 38px); line-height: 1.15">Quer ver o sistema com a cara da sua clínica?</h2>
+        <p style="margin: 0; font-size: 18px; color: #E4DFFB">Mande sua logo e a gente mostra como fica. Também cuidamos da migração dos dados do sistema que você usa hoje.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; flex: 0 1 auto; min-width: 0">
+        <a class="fx-btn" href="https://wa.me/5583987244456?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20AC%20Software%20e%20gostaria%20de%20agendar%20uma%20conversa%20sobre%20o%20Sistema%20de%20Gest%C3%A3o%20Cl%C3%ADnica." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 12px; background: #FFFFFF; color: #4C1D95; font-weight: 700; text-decoration: none">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+          Cleyton · (83) 98724-4456
+        </a>
+        <a class="fx-btn" href="https://wa.me/5583986690422?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20AC%20Software%20e%20gostaria%20de%20agendar%20uma%20conversa%20sobre%20o%20Sistema%20de%20Gest%C3%A3o%20Cl%C3%ADnica." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 12px; background: #FFFFFF; color: #4C1D95; font-weight: 700; text-decoration: none">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+          Luiz · (83) 98669-0422
+        </a>
+        <a href="mailto:ac.softwaree@gmail.com" style="font-size: 14px; color: #E4DFFB; text-align: center; min-height: 44px; display: inline-flex; align-items: center; justify-content: center">ou ac.softwaree@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer style="background: #06080D; color: #8F9AAB">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 28px clamp(16px, 4vw, 24px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; font-size: 14px">
+      <span>Sistema de Gestão Clínica, um produto <a href="index.html" style="color: #8FC0FF">AC Software</a></span>
+      <span>© 2026 AC Software · CNPJ 69.631.203/0001-82</span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
